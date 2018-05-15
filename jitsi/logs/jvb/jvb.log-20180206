@@ -1,0 +1,253 @@
+Feb 02, 2018 8:27:34 PM net.java.sip.communicator.util.Logger info
+INFO: java.net.preferIPv6Addresses=null
+Feb 02, 2018 8:27:34 PM net.java.sip.communicator.util.Logger info
+INFO: java.net.preferIPv4Stack=null
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/share/jitsi-videobridge/lib/slf4j-jdk14-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/share/jitsi-videobridge/lib/slf4j-simple-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: Successfully started LibJitsi using as implementation: org.jitsi.impl.libjitsi.LibJitsiOSGiImpl
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: Using properties file configuration store.
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vendor=Oracle Corporation
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.CONSENT_FRESHNESS_INTERVAL=3000
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.java.launcher=SUN_STANDARD
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.harvest.AbstractUdpListener.SO_RCVBUF=10485760
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.impl.neomedia.transform.srtp.SRTPCryptoContext.checkReplay=false
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: os.name=Linux
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vm.specification.vendor=Oracle Corporation
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.runtime.version=1.8.0_151-8u151-b12-1~deb9u1-b12
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.CONSENT_FRESHNESS_MAX_RETRANSMISSIONS=5
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.service.neomedia.VideoMediaStream.REQUEST_RETRANSMISSIONS=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: user.name=jvb
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.impl.neomedia.rtp.ENABLE_AST_RBE=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.impl.configuration.USE_PROPFILE_CONFIG=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: user.language=en
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.impl.neomedia.transform.csrc.SsrcTransformEngine.dropMutedAudioSourceInReverseTransform=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.service.media.MIN_PORT_NUMBER=10001
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.packetlogging.PACKET_LOGGING_ENABLED=false
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.videobridge.rest=false
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.version=1.8.0_151
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: user.timezone=America/Vancouver
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.arch.data.model=64
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.CONSENT_FRESHNESS_WAIT_INTERVAL=500
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.cpu.isalist=
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.jnu.encoding=ANSI_X3.4-1968
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: file.encoding.pkg=sun.io
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: file.separator=/
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.specification.name=Java Platform API Specification
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.class.version=52.0
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: user.country=US
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.service.media.DISABLE_VIDEO_SUPPORT=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vm.info=mixed mode
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: os.version=4.9.60-linuxkit-aufs
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: path.separator=:
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vm.version=25.151-b12
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.CONFIGURATION_FILE_IS_READ_ONLY=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.awt.printerjob=sun.print.PSPrinterJob
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.io.unicode.encoding=UnicodeLittle
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.videobridge.TRUST_BWE=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: awt.toolkit=sun.awt.X11.XToolkit
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: user.home=/usr/share/jitsi-videobridge
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.specification.vendor=Oracle Corporation
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.library.path=/usr/share/jitsi-videobridge/lib/native/linux-64
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vendor.url=http://java.oracle.com/
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.service.audionotifier.AudioNotifierService=org.jitsi.impl.neomedia.notify.AudioNotifierServiceImpl
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vm.vendor=Oracle Corporation
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.CONSENT_FRESHNESS_MAX_WAIT_INTERVAL=500
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.runtime.name=OpenJDK Runtime Environment
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.java.command=org.jitsi.videobridge.Main --host=prosody --domain=192.168.7.76 --port=5347 --secret=X
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.class.path=/usr/share/jitsi-videobridge/jitsi-videobridge.jar:/usr/share/jitsi-videobridge/lib/agafua-syslog-0.4.jar:/usr/share/jitsi-videobridge/lib/async-http-client-1.9.31.jar:/usr/share/jitsi-videobridge/lib/bccontrib-1.0.jar:/usr/share/jitsi-videobridge/lib/bcpkix-jdk15on-1.54.jar:/usr/share/jitsi-videobridge/lib/bcprov-jdk15on-1.54.jar:/usr/share/jitsi-videobridge/lib/callstats-java-sdk-4.1.4.jar:/usr/share/jitsi-videobridge/lib/commons-codec-1.6.jar:/usr/share/jitsi-videobridge/lib/commons-lang3-3.1.jar:/usr/share/jitsi-videobridge/lib/commons-logging-1.2.jar:/usr/share/jitsi-videobridge/lib/concurrentlinkedhashmap-lru-1.0_jdk5.jar:/usr/share/jitsi-videobridge/lib/core-2.0.1.jar:/usr/share/jitsi-videobridge/lib/dnsjava-2.1.7.jar:/usr/share/jitsi-videobridge/lib/dom4j-1.6.1.jar:/usr/share/jitsi-videobridge/lib/fmj-1.0-20161207.221530-23.jar:/usr/share/jitsi-videobridge/lib/gson-2.3.1.jar:/usr/share/jitsi-videobridge/lib/guava-15.0.jar:/usr/share/jitsi-videobridge/lib/httpasyncclient-4.1.jar:/usr/share/jitsi-videobridge/lib/httpclient-4.4.jar:/usr/share/jitsi-videobridge/lib/httpcore-4.4.jar:/usr/share/jitsi-videobridge/lib/httpcore-nio-4.4.1.jar:/usr/share/jitsi-videobridge/lib/ice4j-2.0.0-20170821.174042-3.jar:/usr/share/jitsi-videobridge/lib/jain-sip-ri-ossonly-1.2.98c7f8c-jitsi-oss1.jar:/usr/share/jitsi-videobridge/lib/java-sdp-nist-bridge-1.1.jar:/usr/share/jitsi-videobridge/lib/javax.servlet-api-3.1.0.jar:/usr/share/jitsi-videobridge/lib/jbosh-0.9.0.jar:/usr/share/jitsi-videobridge/lib/jcip-annotations-1.0.jar:/usr/share/jitsi-videobridge/lib/jetty-client-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-http-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-io-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-proxy-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-rewrite-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-security-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-server-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-servlet-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-util-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/jetty-webapp-7.0.1.v20091125.jar:/usr/share/jitsi-videobridge/lib/jetty-xml-7.0.1.v20091125.jar:/usr/share/jitsi-videobridge/lib/jicoco-1.1-20171010.184527-1.jar:/usr/share/jitsi-videobridge/lib/jitsi-android-osgi-1.0-20150723.002702-1.jar:/usr/share/jitsi-videobridge/lib/jitsi-configuration-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-dnsservice-2.9-20150723.181644-1.jar:/usr/share/jitsi-videobridge/lib/jitsi-fileaccess-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-netaddr-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-packetlogging-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-protocol-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-protocol-jabber-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-protocol-media-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-resourcemanager-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-stats-1.0-20171010.224039-4.jar:/usr/share/jitsi-videobridge/lib/jitsi-ui-service-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jitsi-util-2.13.9aab784.jar:/usr/share/jitsi-videobridge/lib/jna-4.1.0.jar:/usr/share/jitsi-videobridge/lib/jnsapi-0.0.3-jitsi-smack4.2-3.jar:/usr/share/jitsi-videobridge/lib/jose4j-0.5.1.jar:/usr/share/jitsi-videobridge/lib/json-simple-1.1.1.jar:/usr/share/jitsi-videobridge/lib/jul-to-slf4j-1.7.7.jar:/usr/share/jitsi-videobridge/lib/jxmpp-core-0.5.0.jar:/usr/share/jitsi-videobridge/lib/jxmpp-jid-0.5.0.jar:/usr/share/jitsi-videobridge/lib/jxmpp-util-cache-0.5.0.jar:/usr/share/jitsi-videobridge/lib/libidn-1.15.jar:/usr/share/jitsi-videobridge/lib/libjitsi-1.0-20171013.160715-320.jar:/usr/share/jitsi-videobridge/lib/log4j-1.2.15.jar:/usr/share/jitsi-videobridge/lib/log4j-api-2.3.jar:/usr/share/jitsi-videobridge/lib/log4j-core-2.3.jar:/usr/share/jitsi-videobridge/lib/netty-3.10.4.Final.jar:/usr/share/jitsi-videobridge/lib/orange-extensions-1.3.0.jar:/usr/share/jitsi-videobridge/lib/org.apache.felix.framework-4.4.0.jar:/usr/share/jitsi-videobridge/lib/org.apache.felix.main-4.4.0.jar:/usr/share/jitsi-videobridge/lib/org.osgi.core-4.3.1.jar:/usr/share/jitsi-videobridge/lib/osgi-over-slf4j-1.7.7.jar:/usr/share/jitsi-videobridge/lib/sdes4j-1.1.3.jar:/usr/share/jitsi-videobridge/lib/sdp-api-1.0.jar:/usr/share/jitsi-videobridge/lib/sigar-1.6.4.jar:/usr/share/jitsi-videobridge/lib/slf4j-api-1.7.7.jar:/usr/share/jitsi-videobridge/lib/slf4j-jdk14-1.7.7.jar:/usr/share/jitsi-videobridge/lib/slf4j-simple-1.6.1.jar:/usr/share/jitsi-videobridge/lib/smack-bosh-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-core-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-debug-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-experimental-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-extensions-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-im-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-java7-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-legacy-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-resolver-javax-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-sasl-javax-4.2.1.jar:/usr/share/jitsi-videobridge/lib/smack-tcp-4.2.1.jar:/usr/share/jitsi-videobridge/lib/tinder-1.3.0.jar:/usr/share/jitsi-videobridge/lib/websocket-api-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/websocket-client-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/websocket-common-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/websocket-server-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/websocket-servlet-9.2.10.v20150310.jar:/usr/share/jitsi-videobridge/lib/weupnp-0.1.4.jar:/usr/share/jitsi-videobridge/lib/xml-apis-1.0.b2.jar:/usr/share/jitsi-videobridge/lib/xmlpull-1.1.3.4a.jar:/usr/share/jitsi-videobridge/lib/xpp3-1.1.4c.jar:/usr/share/jitsi-videobridge/lib/zrtp4j-light-3.2.0-jitsi-1-20150723.002345-1.jar
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.videobridge.xmpp=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vm.specification.name=Java Virtual Machine Specification
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.service.media.DISABLE_AUDIO_SUPPORT=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vm.specification.version=1.8
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.cpu.endian=little
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: sun.os.patch.level=unknown
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.io.tmpdir=/tmp
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.videobridge.ENABLE_SVC=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.service.media.MAX_PORT_NUMBER=20000
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.service.neomedia.AudioMediaStream.DISABLE_DTMF_HANDLING=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: os.arch=amd64
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: user.dir=/run/s6/services/10-jitsi-videobridge
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: line.separator=
+
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.vm.name=OpenJDK 64-Bit Server VM
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.harvest.DISABLE_LINK_LOCAL_ADDRESSES=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: file.encoding=ANSI_X3.4-1968
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.impl.neomedia.video.maxbandwidth=2147483647
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.videobridge.ENABLE_VP8_PICID_REWRITING=true
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: java.specification.version=1.8
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.impl.neomedia.rtp.sendsidebandwidthestimation.BandwidthEstimatorImpl.START_BITRATE_BPS=2500000
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: Normal classloader
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: failed to find jitsi-defaults.properties with class loader, will continue without it.
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: Normal classloader
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+INFO: failed to find jitsi-default-overrides.properties with class loader, will continue without it.
+Feb 02, 2018 8:27:34 PM net.java.sip.communicator.util.Logger info
+INFO: Resource manager STARTED
+Feb 02, 2018 8:27:34 PM net.java.sip.communicator.util.Logger info
+INFO: Resource manager REGISTERED
+Feb 02, 2018 8:27:34 PM net.java.sip.communicator.util.Logger info
+INFO: Network Address Manager         ...[  STARTED ]
+Feb 02, 2018 8:27:34 PM net.java.sip.communicator.util.Logger info
+INFO: Network Address Manager Service ...[REGISTERED]
+Feb 02, 2018 8:27:34 PM net.java.sip.communicator.util.Logger info
+INFO: Packet Logging Service ...[REGISTERED]
+Feb 02, 2018 8:27:34 PM org.jitsi.util.LoggerImpl log
+WARNING: No authorized source regexp configured. Will accept requests from any source.
+Feb 02, 2018 8:27:35 PM org.ice4j.ice.harvest.StunMappingCandidateHarvester discover
+INFO: We failed to obtain addresses for the following reason: 
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:316)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:144)
+	at org.ice4j.stack.Connector.sendMessage(Connector.java:324)
+	at org.ice4j.stack.NetAccessManager.sendMessage(NetAccessManager.java:629)
+	at org.ice4j.stack.NetAccessManager.sendMessage(NetAccessManager.java:575)
+	at org.ice4j.stack.StunClientTransaction.sendRequest0(StunClientTransaction.java:394)
+	at org.ice4j.stack.StunClientTransaction.sendRequest(StunClientTransaction.java:372)
+	at org.ice4j.stack.StunStack.sendRequest(StunStack.java:689)
+	at org.ice4j.stack.StunStack.sendRequest(StunStack.java:627)
+	at org.ice4j.stack.StunStack.sendRequest(StunStack.java:594)
+	at org.ice4j.stunclient.BlockingRequestSender.sendRequestAndWaitForResponse(BlockingRequestSender.java:166)
+	at org.ice4j.stunclient.SimpleAddressDetector.getMappingFor(SimpleAddressDetector.java:123)
+	at org.ice4j.ice.harvest.StunMappingCandidateHarvester.discover(StunMappingCandidateHarvester.java:81)
+	at org.ice4j.ice.harvest.MappingCandidateHarvesters$1.call(MappingCandidateHarvesters.java:317)
+	at org.ice4j.ice.harvest.MappingCandidateHarvesters$1.call(MappingCandidateHarvesters.java:312)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Feb 02, 2018 8:27:35 PM org.ice4j.ice.harvest.MappingCandidateHarvesters initialize
+INFO: Initialized mapping harvesters (delay=305ms).  stunDiscoveryFailed=true
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: Warming up SecureRandom...
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: Warming up SecureRandom finished.
+Feb 02, 2018 8:27:35 PM net.java.sip.communicator.util.Logger info
+INFO: JVB Version: JVB 0.1.1011
+Feb 02, 2018 8:27:35 PM net.java.sip.communicator.util.Logger info
+INFO: Not starting the Jetty service for org.jitsi.videobridge.rest.RESTBundleActivator(port=8080)
+Feb 02, 2018 8:27:35 PM net.java.sip.communicator.util.Logger info
+INFO: Not starting the Jetty service for org.jitsi.videobridge.rest.PublicRESTBundleActivator(port=-1)
+Feb 02, 2018 8:27:35 PM net.java.sip.communicator.util.Logger info
+INFO: Octo relay not configured.
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.harvest.ALLOWED_ADDRESSES=172.18.0.5
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ipv6.DISABLED=true
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.harvest.NAT_HARVESTER_LOCAL_ADDRESS=172.18.0.5
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.impl.neomedia.transform.srtp.SRTPCryptoContext.checkReplay=false
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: org.jitsi.videobridge.SINGLE_PORT_HARVESTER_PORT=10000
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.SC_HOME_DIR_LOCATION=/usr/share/jitsi-videobridge
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.harvest.STUN_MAPPING_HARVESTER_ADDRESSES=stun.l.google.com:19302
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: org.ice4j.ice.harvest.NAT_HARVESTER_PUBLIC_ADDRESS=
+Feb 02, 2018 8:27:35 PM org.jitsi.util.LoggerImpl log
+INFO: net.java.sip.communicator.SC_HOME_DIR_NAME=.sip-communicator
+Feb 02, 2018 8:27:36 PM net.java.sip.communicator.util.Logger info
+INFO: Component org.jitsi.videobridge. config: 
+Feb 02, 2018 8:27:36 PM net.java.sip.communicator.util.Logger info
+INFO:   ping interval: 10000 ms
+Feb 02, 2018 8:27:36 PM net.java.sip.communicator.util.Logger info
+INFO:   ping timeout: 5000 ms
+Feb 02, 2018 8:27:36 PM net.java.sip.communicator.util.Logger info
+INFO:   ping threshold: 3
+Feb 03, 2018 2:19:22 AM net.java.sip.communicator.util.Logger error
+SEVERE: Ping timeout for ID: tq14V-3577

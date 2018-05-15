@@ -1,0 +1,101 @@
+version: '2'
+
+services:
+  prosody:
+    build: ./prosody
+    container_name: prosody
+    image: tiredofit/jitsi-prosody
+    volumes:
+      - ./logs/prosody:/var/log/prosody
+      - ./certs:/certs
+
+    environment:
+      - HOST=192.168.7.76
+
+      - JITSI_VIDEO_PASS=secret1
+      - JICOFO_PASS=secret2
+      - JICOFO_USER_PASS=secret3
+
+      - LDAP_ENABLED=false
+      - LDAP_HOST=ldap.example.com
+      - LDAP_BIND_DN=cn=admin,dc=example,dc=com
+      - LDAP_BIND_PASS=supersecurepassword
+      - LDAP_BASE_DN=dc=example,dc=com
+      - LDAP_FILTER=(&(memberOf=CN=app-jitsi,OU=groups,DC=example,DC=com))
+
+    networks:
+      - proxy-tier
+    restart: always
+
+  jicofo:
+    build: ./jicofo
+    container_name: jicofo
+    image: tiredofit/jitsi-jicofo
+    volumes:
+      - ./logs/jicofo:/var/log/jitsi
+      - ./certs:/certs
+
+    environment:
+      - PROSODY_HOST=prosody
+      - HOST=192.168.7.76
+
+      - JICOFO_PASS=secret2
+      - JICOFO_USER_PASS=secret3
+
+      - LDAP_ENABLED=false
+
+    networks:
+      - proxy-tier
+    restart: always
+
+  jvb:
+    build: ./jvb/debian
+    container_name: jvb
+    image: tiredofit/jitsi-videobridge
+    ports: 
+      - 4443:4443
+      - 10000-10100/udp
+    volumes:
+      - ./logs/jvb:/var/log/jitsi
+      - ./certs:/certs
+
+    environment:
+      - HOST=192.168.7.76
+      - PROSODY_HOST=prosody
+      - ENABLE_ZABBIX=FALSE
+      - JITSI_VIDEO_PASS=secret1
+
+      - NETWORK_MODE=NAT
+
+    networks:
+      - proxy-tier
+    restart: always
+
+  jitsi-meet:
+    build: ./jitsi-meet
+    container_name: jitsi-meet
+    image: tiredofit/jitsi-meet
+    volumes:
+      - ./assets/jitsi-meet:/assets/jitsi-meet
+      - ./logs/nginx:/var/log/nginx
+      - ./certs:/certs
+    environment:
+      - VIRTUAL_HOST=192.168.7.76
+      - VIRTUAL_NETWORK=nginx-proxy
+      - LETSENCRYPT_HOST=192.168.7.76
+      - LETSENCRYPT_EMAIL=prongbang@gmail.com
+
+      - JITSI_VIDEO_PASS=secret1
+      - JICOFO_PASS=secret2
+      - JICOFO_USER_PASS=secret3
+
+      - PROSODY_HOST=prosody
+
+    networks:
+      - proxy-tier
+    restart: always
+
+networks:
+  proxy-tier:
+    external:
+      name: nginx-proxy

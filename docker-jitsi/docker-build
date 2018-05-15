@@ -1,0 +1,1 @@
+docker build -t touch/jitsi-meet .
